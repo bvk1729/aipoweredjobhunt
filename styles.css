@@ -4,11 +4,11 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-    --bg-dark: #1E1E1E;
+    --bg-dark: #191816; /* Anthropic Dark Charcoal/Brown */
     --bg-card: rgba(255, 255, 255, 0.03);
     --bg-card-hover: rgba(255, 255, 255, 0.08);
-    --text-primary: #F0EFE9;
-    --text-secondary: #B4B4B0;
+    --text-primary: #F9F6F0; /* Anthropic Warm Cream/Off-white */
+    --text-secondary: #C9C7C0;
     --text-muted: #8A8A85;
     --accent-1: #D97757; /* Claude Peach */
     --accent-2: #B35F43;
@@ -21,7 +21,7 @@
     --gradient-primary: linear-gradient(135deg, #D97757, #D6A476);
     --gradient-secondary: linear-gradient(135deg, #4E6E5D, #6B7B8C);
     --gradient-warm: linear-gradient(135deg, #D97757, #B35F43);
-    --gradient-hero: linear-gradient(135deg, #2D2C28, #1E1E1E);
+    --gradient-hero: linear-gradient(135deg, #252422, #191816);
     --glass: rgba(255, 255, 255, 0.04);
     --glass-border: rgba(255, 255, 255, 0.08);
     --radius: 12px;
@@ -34,16 +34,16 @@
 }
 
 body.light-mode {
-    --bg-dark: #F4F4F0; /* Anthropic Cream */
+    --bg-dark: #F9F6F0; /* Anthropic Warm Cream */
     --bg-card: #FFFFFF;
     --bg-card-hover: #FAFAFA;
-    --text-primary: #1E1E1E;
-    --text-secondary: #555555;
+    --text-primary: #191816; /* Matches dark background */
+    --text-secondary: #5C5955;
     --text-muted: #888888;
     --glass: rgba(0, 0, 0, 0.03);
     --glass-border: rgba(0, 0, 0, 0.08);
     --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    --gradient-hero: linear-gradient(135deg, #F4F4F0, #EAEAE5);
+    --gradient-hero: linear-gradient(135deg, #F9F6F0, #EAE5DD);
 }
 
 body.light-mode .slide-nav {
@@ -97,23 +97,23 @@ body {
 /* ---------- Navigation ---------- */
 .slide-nav {
     position: fixed;
-    bottom: 32px;
+    bottom: 12px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
     z-index: 100;
-    background: rgba(10, 10, 26, 0.8);
+    background: rgba(25, 24, 22, 0.85); /* Matches Anthropic Theme background */
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
     border-radius: 50px;
-    padding: 8px 16px;
+    padding: 4px 10px;
 }
 
 .nav-btn {
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     border: none;
     background: var(--glass);
@@ -137,10 +137,10 @@ body {
 }
 
 .slide-counter {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-secondary);
-    min-width: 50px;
+    min-width: 40px;
     text-align: center;
     font-variant-numeric: tabular-nums;
 }
@@ -247,11 +247,8 @@ body {
     align-items: center;
 }
 
-/* ---------- Theme: Hero ---------- */
-[data-theme="hero"] {
-    background: var(--gradient-hero);
-}
-
+/* ---------- Theme: Hero & Dark (Unified Anthropic/Claude Theme) ---------- */
+[data-theme="hero"],
 [data-theme="dark"] {
     background: var(--bg-dark);
 }
