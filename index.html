@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude AI – Bench Sales Revolution</title>
+    <meta name="description" content="How Claude AI and Claude Code can transform Bench Sales Operations">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Light/Dark Mode">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="slide-nav" id="slideNav">
+        <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous slide">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <div class="slide-counter" id="slideCounter">1 / 15</div>
+        <button class="nav-btn next-btn" id="nextBtn" aria-label="Next slide">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+    </nav>
+
+    <!-- Slide Dots -->
+    <div class="slide-dots" id="slideDots"></div>
+
+    <!-- ===================== SLIDE 1: TITLE ===================== -->
+    <section class="slide slide-active" data-slide="1" data-theme="hero">
+        <div class="particles" id="particles1"></div>
+        <div class="slide-content hero-content">
+            <div class="hero-badge animate-pop">🚀 PROPOSAL</div>
+            <h1 class="hero-title animate-up">
+                <span class="gradient-text">Claude AI</span>
+                <br>for Bench Sales
+            </h1>
+            <p class="hero-subtitle animate-up delay-1">Transforming Recruiter Productivity with AI-Powered Automation</p>
+            <div class="hero-stats animate-up delay-2">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="12">0</span>
+                    <span class="hero-stat-label">Workflow Steps</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="70" data-suffix="%">0</span>
+                    <span class="hero-stat-label">Less Manual Work</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="3" data-suffix="x">0</span>
+                    <span class="hero-stat-label">Faster Submissions</span>
+                </div>
+            </div>
+            <div class="scroll-hint animate-up delay-3">
+                <span>Press → or click to begin</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </div>
+        </div>
+    </section>
+
+        <!-- ===================== SLIDE 2: THE SOLUTION ===================== -->
+    <section class="slide" data-slide="2" data-theme="dark">
+        <div class="slide-content split-content">
+            <div class="split-left">
+                <div class="section-label animate-pop">THE SOLUTION</div>
+                <h2 class="slide-title animate-up">One AI Partner for the<br><span class="gradient-text-alt">Entire Lifecycle</span></h2>
+                <p class="slide-desc animate-up delay-1">A unified system connecting every stage of the bench sales pipeline.</p>
+            </div>
+            <div class="split-right animate-up delay-1">
+                <div class="roadmap" style="flex-direction: column;">
+                    <div class="phase-card phase-1">
+                        <div class="phase-header">
+                            <div class="phase-title">1. Preparation</div>
+                        </div>
+                        <div class="phase-items">
+                            <div class="phase-item done">✓ Onboard & Optimize Resumes</div>
+                        </div>
+                    </div>
+                    <div class="phase-card phase-2">
+                        <div class="phase-header">
+                            <div class="phase-title">2. Execution</div>
+                        </div>
+                        <div class="phase-items">
+                            <div class="phase-item">◦ Search, Match & Submit</div>
+                        </div>
+                    </div>
+                    <div class="phase-card phase-1">
+                        <div class="phase-header">
+                            <div class="phase-title">3. Analytics</div>
+                        </div>
+                        <div class="phase-items">
+                            <div class="phase-item">◦ Track, Report & Automate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ===================== SLIDE 3: STEP 1 — ONBOARDING ===================== -->
+    <section class="slide" data-slide="3" data-theme="dark">
+        <div class="slide-content split-content">
+            <div class="split-left">
+                <div class="step-badge animate-pop">STEP 1</div>
+                <h2 class="slide-title animate-up">Consultant<br><span class="gradient-text">Onboarding</span></h2>
+                <p class="slide-desc animate-up delay-1">Create a dedicated Claude Project for each consultant. Claude remembers everything throughout the engagement.</p>
+                <div class="feature-tags animate-up delay-2">
+                    <span class="tag tag-purple">Persistent Memory</span>
+                    <span class="tag tag-blue">Organized</span>
+                    <span class="tag tag-green">Instant Recall</span>
+                </div>
+            </div>
+            <div class="split-right animate-up delay-1">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-avatar">RP</div>
+                        <div class="profile-info">
+                            <div class="profile-name">Ryan Peterson</div>
+                            <div class="profile-role">Sr. Power BI Developer</div>
+                        </div>
+                        <div class="profile-status online">Available</div>
+                    </div>
+                    <div class="profile-details">
+                        <div class="detail-row"><span class="detail-label">📍 Location</span><span class="detail-value">Dallas, TX</span></div>
+                        <div class="detail-row"><span class="detail-label">🛂 Work Authorisation</span><span class="detail-value">USC / Green Card</span></div>
+                        <div class="detail-row"><span class="detail-label">💰 Salary/Rate</span><span class="detail-value">$110k / $55/Hr</span></div>
+                        <div class="detail-row"><span class="detail-label">🏠 Mode</span><span class="detail-value">Remote / Hybrid</span></div>
+                        <div class="detail-row"><span class="detail-label">⚙️ Skills</span><span class="detail-value">Power BI, DAX, Python (Pandas/NumPy), SQL, Azure</span></div>
+                        <div class="detail-row"><span class="detail-label">🏢 Industry</span><span class="detail-value">Healthcare, Retail, Finance</span></div>
+                        <div class="detail-row"><span class="detail-label">📅 Available</span><span class="detail-value">Immediately</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 5: STEP 2 — RESUME OPTIMIZATION ===================== -->
+    <section class="slide" data-slide="5" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 2</div>
+            <h2 class="slide-title animate-up">Resume <span class="gradient-text">Optimization</span></h2>
+            <p class="slide-desc animate-up delay-1">Claude transforms raw resumes into client-ready, ATS-optimized documents</p>
+            <div class="before-after animate-up delay-2">
+                <div class="ba-panel ba-before">
+                    <div class="ba-label">❌ BEFORE</div>
+                    <div class="ba-content">
+                        <div class="ba-line bad">haveing 8 yrs exp in java developement</div>
+                        <div class="ba-line bad">worked on many projects in different domains</div>
+                        <div class="ba-line bad">Skills: java, spring, aws, docker, kubernets</div>
+                        <div class="ba-line bad">responsible for development of applications</div>
+                        <div class="ba-line bad">good team player with strong communication</div>
+                    </div>
+                </div>
+                <div class="ba-arrow">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>Claude AI</span>
+                </div>
+                <div class="ba-panel ba-after">
+                    <div class="ba-label">✅ AFTER</div>
+                    <div class="ba-content">
+                        <div class="ba-line good">8+ years of expertise in Java/J2EE development</div>
+                        <div class="ba-line good">Delivered solutions in Healthcare, FinTech & Retail</div>
+                        <div class="ba-line good">Java | Spring Boot | AWS | Docker | Kubernetes</div>
+                        <div class="ba-line good">Architected microservices handling 10K+ RPM</div>
+                        <div class="ba-line good">Led cross-functional teams of 8+ engineers</div>
+                    </div>
+                </div>
+            </div>
+            <div class="optimization-tags animate-up delay-3">
+                <span class="opt-tag">✓ Grammar Fixed</span>
+                <span class="opt-tag">✓ ATS Keywords</span>
+                <span class="opt-tag">✓ Quantified Impact</span>
+                <span class="opt-tag">✓ Skills Organized</span>
+                <span class="opt-tag">✓ 100% Accurate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 6: STEP 3 — JOB SEARCH ===================== -->
+    <section class="slide" data-slide="6" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 3</div>
+            <h2 class="slide-title animate-up">Daily Job Search<br><span class="gradient-text-code">with Claude Code</span></h2>
+            <p class="slide-desc animate-up delay-1">On-demand job discovery across approved portals — triggered by the recruiter</p>
+            <div class="terminal-window animate-up delay-2">
+                <div class="terminal-bar">
+                    <div class="terminal-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <span class="terminal-title">Claude Code</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">recruiter $</span>
+                        <span class="command typing" id="typingCmd">Find jobs posted in the last 24 hours for all active consultants</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="info">🔍 Scanning approved job portals...</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="success">✓ Dice — 23 matches found</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="success">✓ Monster — 18 matches found</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="success">✓ LinkedIn Jobs — 31 matches found</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="success">✓ CareerBuilder — 12 matches found</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="info">📊 Comparing 84 jobs against 5 consultant profiles...</span>
+                    </div>
+                    <div class="terminal-line output">
+                        <span class="success">✅ 34 strong matches ready for review</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 7: STEP 4 — PREFERENCE VALIDATION ===================== -->
+    <section class="slide" data-slide="7" data-theme="dark">
+        <div class="slide-content split-content">
+            <div class="split-left">
+                <div class="step-badge animate-pop">STEP 4</div>
+                <h2 class="slide-title animate-up">Preference<br><span class="gradient-text">Validation</span></h2>
+                <p class="slide-desc animate-up delay-1">Every opportunity is filtered through consultant preferences before recommendation</p>
+            </div>
+            <div class="split-right animate-up delay-1">
+                <div class="filter-pipeline">
+                    <div class="filter-stage">
+                        <div class="filter-icon">🌐</div>
+                        <div class="filter-text">84 Jobs Found</div>
+                        <div class="filter-bar full"></div>
+                    </div>
+                    <div class="filter-arrow">▼</div>
+                    <div class="filter-stage">
+                        <div class="filter-icon">🏠</div>
+                        <div class="filter-text">Remote/Hybrid Filter</div>
+                        <div class="filter-bar" style="width:75%"></div>
+                        <div class="filter-count">→ 63</div>
+                    </div>
+                    <div class="filter-arrow">▼</div>
+                    <div class="filter-stage">
+                        <div class="filter-icon">📍</div>
+                        <div class="filter-text">Location Preference</div>
+                        <div class="filter-bar" style="width:55%"></div>
+                        <div class="filter-count">→ 46</div>
+                    </div>
+                    <div class="filter-arrow">▼</div>
+                    <div class="filter-stage">
+                        <div class="filter-icon">💰</div>
+                        <div class="filter-text">Minimum Rate</div>
+                        <div class="filter-bar" style="width:45%"></div>
+                        <div class="filter-count">→ 38</div>
+                    </div>
+                    <div class="filter-arrow">▼</div>
+                    <div class="filter-stage">
+                        <div class="filter-icon">🛂</div>
+                        <div class="filter-text">Work Authorisation</div>
+                        <div class="filter-bar" style="width:40%"></div>
+                        <div class="filter-count">→ 34</div>
+                    </div>
+                    <div class="filter-arrow">▼</div>
+                    <div class="filter-stage highlight">
+                        <div class="filter-icon">✅</div>
+                        <div class="filter-text">34 Qualified Matches</div>
+                        <div class="filter-bar match" style="width:40%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 8: STEP 5 — JD MATCHING ===================== -->
+    <section class="slide" data-slide="8" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 5</div>
+            <h2 class="slide-title animate-up">Resume vs JD <span class="gradient-text">Matching</span></h2>
+            <p class="slide-desc animate-up delay-1">Intelligent scoring with transparent analysis for every opportunity</p>
+            <div class="match-dashboard animate-up delay-2">
+                <div class="match-row">
+                    <div class="match-avatar blue">PB</div>
+                    <div class="match-info">
+                        <div class="match-name">Power BI Developer</div>
+                        <div class="match-detail">12 jobs analyzed</div>
+                    </div>
+                    <div class="match-score-ring" data-score="96">
+                        <svg viewBox="0 0 80 80">
+                            <circle cx="40" cy="40" r="35" class="ring-bg"/>
+                            <circle cx="40" cy="40" r="35" class="ring-fill green" style="--percent:96"/>
+                        </svg>
+                        <span class="ring-text">96%</span>
+                    </div>
+                    <div class="match-action submit-now">Submit Now</div>
+                </div>
+                <div class="match-row">
+                    <div class="match-avatar purple">DA</div>
+                    <div class="match-info">
+                        <div class="match-name">Data Analyst</div>
+                        <div class="match-detail">8 jobs analyzed</div>
+                    </div>
+                    <div class="match-score-ring" data-score="94">
+                        <svg viewBox="0 0 80 80">
+                            <circle cx="40" cy="40" r="35" class="ring-bg"/>
+                            <circle cx="40" cy="40" r="35" class="ring-fill green" style="--percent:94"/>
+                        </svg>
+                        <span class="ring-text">94%</span>
+                    </div>
+                    <div class="match-action submit-now">Submit Now</div>
+                </div>
+                <div class="match-row">
+                    <div class="match-avatar orange">PA</div>
+                    <div class="match-info">
+                        <div class="match-name">Power BI Architect</div>
+                        <div class="match-detail">5 jobs analyzed</div>
+                    </div>
+                    <div class="match-score-ring" data-score="92">
+                        <svg viewBox="0 0 80 80">
+                            <circle cx="40" cy="40" r="35" class="ring-bg"/>
+                            <circle cx="40" cy="40" r="35" class="ring-fill yellow" style="--percent:92"/>
+                        </svg>
+                        <span class="ring-text">92%</span>
+                    </div>
+                    <div class="match-action strong-match">Strong Match</div>
+                </div>
+                <div class="match-row">
+                    <div class="match-avatar teal">BI</div>
+                    <div class="match-info">
+                        <div class="match-name">BI Developer</div>
+                        <div class="match-detail">9 jobs analyzed</div>
+                    </div>
+                    <div class="match-score-ring" data-score="95">
+                        <svg viewBox="0 0 80 80">
+                            <circle cx="40" cy="40" r="35" class="ring-bg"/>
+                            <circle cx="40" cy="40" r="35" class="ring-fill green" style="--percent:95"/>
+                        </svg>
+                        <span class="ring-text">95%</span>
+                    </div>
+                    <div class="match-action submit-now">Submit Now</div>
+                </div>
+            </div>
+            <div class="match-legend animate-up delay-3">
+                <span><span class="legend-dot green"></span> 90%+ Submit Immediately</span>
+                <span><span class="legend-dot yellow"></span> 80-89% Strong Match</span>
+                <span><span class="legend-dot red"></span> &lt;80% Review Needed</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 8: STEP 6 — RESUME CUSTOMIZATION ===================== -->
+    <section class="slide" data-slide="8" data-theme="dark">
+        <div class="slide-content split-content">
+            <div class="split-left">
+                <div class="step-badge animate-pop">STEP 6</div>
+                <h2 class="slide-title animate-up">Resume<br><span class="gradient-text">Customization</span></h2>
+                <p class="slide-desc animate-up delay-1">For every high-priority submission, Claude tailors the resume to maximize relevance — while keeping everything truthful.</p>
+                <div class="customize-list animate-up delay-2">
+                    <div class="customize-item">
+                        <div class="customize-check">✓</div>
+                        <span>Updates Professional Summary</span>
+                    </div>
+                    <div class="customize-item">
+                        <div class="customize-check">✓</div>
+                        <span>Reorders Technical Skills</span>
+                    </div>
+                    <div class="customize-item">
+                        <div class="customize-check">✓</div>
+                        <span>Highlights Relevant Projects</span>
+                    </div>
+                    <div class="customize-item">
+                        <div class="customize-check">✓</div>
+                        <span>Improves ATS Keyword Density</span>
+                    </div>
+                    <div class="customize-item">
+                        <div class="customize-check">✓</div>
+                        <span>Maintains 100% Accuracy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="split-right animate-up delay-2">
+                <div class="resume-morph">
+                    <div class="morph-label">Client Requirement: Healthcare BI + Azure</div>
+                    <div class="morph-doc">
+                        <div class="morph-section">
+                            <div class="morph-heading">Professional Summary</div>
+                            <div class="morph-highlight">Sr. Power BI Developer with <mark>6+ years in Healthcare Analytics</mark>, specializing in <mark>Azure Synapse + Power BI dashboards</mark>…</div>
+                        </div>
+                        <div class="morph-section">
+                            <div class="morph-heading">Technical Skills (Reordered)</div>
+                            <div class="morph-tags">
+                                <span class="m-tag primary">Power BI</span>
+                                <span class="m-tag primary">DAX</span>
+                                <span class="m-tag primary">Azure Synapse</span>
+                                <span class="m-tag primary">SQL Server</span>
+                                <span class="m-tag secondary">Power Query</span>
+                                <span class="m-tag secondary">SSRS</span>
+                                <span class="m-tag secondary">Tableau</span>
+                            </div>
+                        </div>
+                        <div class="morph-section">
+                            <div class="morph-heading">Featured Project ★</div>
+                            <div class="morph-highlight"><mark>Clinical KPI Dashboard — Regional Health System</mark><br>Built real-time Power BI dashboards ingesting from Azure Data Factory…</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 9: STEP 7 — SUBMISSION SUMMARY ===================== -->
+    <section class="slide" data-slide="9" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 7</div>
+            <h2 class="slide-title animate-up">Submission <span class="gradient-text">Summary</span></h2>
+            <p class="slide-desc animate-up delay-1">Professional notes ready to copy directly into CEIPAL or any ATS</p>
+            <div class="submission-card animate-up delay-2">
+                <div class="sub-header">
+                    <div class="sub-icon">📋</div>
+                    <div>
+                        <div class="sub-title">Submission Note — Ryan Peterson</div>
+                        <div class="sub-subtitle">Sr. Power BI Developer → DataVision Healthcare</div>
+                    </div>
+                    <button class="copy-btn" onclick="this.textContent='✓ Copied!'; setTimeout(()=>this.textContent='📋 Copy', 2000)">📋 Copy</button>
+                </div>
+                <div class="sub-body">
+                    <div class="sub-row"><span class="sub-label">Experience</span><span class="sub-value">6+ Years in Power BI / Python Data Engineering</span></div>
+                    <div class="sub-row"><span class="sub-label">Core Skills</span><span class="sub-value">Power BI, DAX, Python (Pandas/NumPy), SQL Server, Azure Synapse</span></div>
+                    <div class="sub-row"><span class="sub-label">Domain</span><span class="sub-value">Healthcare Analytics, Retail, Finance</span></div>
+                    <div class="sub-row"><span class="sub-label">Authorisation</span><span class="sub-value">US Citizen / Green Card</span></div>
+                    <div class="sub-row"><span class="sub-label">Availability</span><span class="sub-value">Immediate — 2 weeks notice</span></div>
+                    <div class="sub-row"><span class="sub-label">Location</span><span class="sub-value">Dallas, TX (Open to relocation)</span></div>
+                    <div class="sub-row"><span class="sub-label">Strengths</span><span class="sub-value">Executive dashboards, Python data cleaning, data modeling, KPI design</span></div>
+                    <div class="sub-row"><span class="sub-label">Summary</span><span class="sub-value">Results-driven Power BI expert with strong Python scripting capabilities. Built real-time dashboards tracking 200+ clinical KPIs across 12 hospitals.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 10: STEP 8 — MARKETING EMAILS ===================== -->
+    <section class="slide" data-slide="10" data-theme="dark">
+        <div class="slide-content split-content">
+            <div class="split-left">
+                <div class="step-badge animate-pop">STEP 8</div>
+                <h2 class="slide-title animate-up">Marketing<br><span class="gradient-text">Emails</span></h2>
+                <p class="slide-desc animate-up delay-1">No more generic mass emails. Claude generates personalized marketing for each consultant and vendor.</p>
+                <div class="email-benefits animate-up delay-2">
+                    <div class="eb-item"><span class="eb-num">5x</span><span>Higher Open Rates</span></div>
+                    <div class="eb-item"><span class="eb-num">3x</span><span>More Responses</span></div>
+                    <div class="eb-item"><span class="eb-num">80%</span><span>Time Saved</span></div>
+                </div>
+            </div>
+            <div class="split-right animate-up delay-2">
+                <div class="email-preview">
+                    <div class="email-header-bar">
+                        <div class="email-dots"><span></span><span></span><span></span></div>
+                        <span>New Message</span>
+                    </div>
+                    <div class="email-fields">
+                        <div class="email-field"><strong>To:</strong> vendor@primestaff.com</div>
+                        <div class="email-field"><strong>Subject:</strong> Sr. Power BI Developer — Healthcare BI Exp — H1B — Immediate</div>
+                    </div>
+                    <div class="email-body-content">
+                        <p>Hi Team,</p>
+                        <p>I have a strong <strong>Sr. Power BI Developer</strong> with <strong>6+ years</strong> of experience, currently available for immediate placement.</p>
+                        <p><strong>Key Highlights:</strong></p>
+                        <ul>
+                            <li>Expert in <strong>Power BI, DAX, Python (Pandas), SQL Server, Azure Synapse</strong></li>
+                            <li>Proven <strong>Healthcare Analytics</strong> experience with clinical KPI dashboards</li>
+                            <li>Built self-service BI platforms serving <strong>500+ end-users</strong></li>
+                        </ul>
+                        <p>Happy to share the profile. Let me know if you have any matching requirements.</p>
+                        <p>Best regards,<br>Recruiter Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 12: STEP 9 — VENDOR COMMUNICATION ===================== -->
+    <section class="slide" data-slide="12" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 9</div>
+            <h2 class="slide-title animate-up">Vendor <span class="gradient-text">Communication</span></h2>
+            <p class="slide-desc animate-up delay-1">Claude drafts professional emails for every stage — recruiters always review before sending</p>
+            <div class="comm-timeline animate-up delay-2">
+                <div class="comm-step">
+                    <div class="comm-dot"></div>
+                    <div class="comm-card">
+                        <div class="comm-emoji">📧</div>
+                        <h4>Initial Marketing</h4>
+                        <p>Personalized consultant pitch</p>
+                    </div>
+                </div>
+                <div class="comm-step">
+                    <div class="comm-dot"></div>
+                    <div class="comm-card">
+                        <div class="comm-emoji">🔄</div>
+                        <h4>Follow-ups</h4>
+                        <p>Timely check-ins with context</p>
+                    </div>
+                </div>
+                <div class="comm-step">
+                    <div class="comm-dot"></div>
+                    <div class="comm-card">
+                        <div class="comm-emoji">✅</div>
+                        <h4>Availability</h4>
+                        <p>Confirmations & updates</p>
+                    </div>
+                </div>
+                <div class="comm-step">
+                    <div class="comm-dot"></div>
+                    <div class="comm-card">
+                        <div class="comm-emoji">📅</div>
+                        <h4>Scheduling</h4>
+                        <p>Interview coordination</p>
+                    </div>
+                </div>
+                <div class="comm-step">
+                    <div class="comm-dot"></div>
+                    <div class="comm-card">
+                        <div class="comm-emoji">💰</div>
+                        <h4>Rate Negotiation</h4>
+                        <p>Professional rate discussions</p>
+                    </div>
+                </div>
+                <div class="comm-step">
+                    <div class="comm-dot"></div>
+                    <div class="comm-card">
+                        <div class="comm-emoji">🙏</div>
+                        <h4>Thank You</h4>
+                        <p>Post-interview follow-ups</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 12: STEP 10 — INTERVIEW PREP ===================== -->
+    <section class="slide" data-slide="12" data-theme="dark">
+        <div class="slide-content split-content">
+            <div class="split-left">
+                <div class="step-badge animate-pop">STEP 10</div>
+                <h2 class="slide-title animate-up">Interview<br><span class="gradient-text">Preparation</span></h2>
+                <p class="slide-desc animate-up delay-1">Claude prepares targeted interview questions that recruiters can share with consultants</p>
+            </div>
+            <div class="split-right animate-up delay-2">
+                <div class="interview-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="technical">⚙️ Technical</button>
+                        <button class="tab-btn" data-tab="behavioral">🧠 Behavioral</button>
+                        <button class="tab-btn" data-tab="project">📁 Project</button>
+                    </div>
+                    <div class="tab-content active" id="tab-technical">
+                        <div class="question-item">
+                            <div class="q-num">Q1</div>
+                            <div>What is the difference between a Measure and a Calculated Column in Power BI?</div>
+                        </div>
+                        <div class="question-item">
+                            <div class="q-num">Q2</div>
+                            <div>How do you optimize a slow Power BI report with large datasets?</div>
+                        </div>
+                        <div class="question-item">
+                            <div class="q-num">Q3</div>
+                            <div>How do you use Python scripts within Power BI for data visualization and cleaning?</div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-behavioral">
+                        <div class="question-item">
+                            <div class="q-num">Q1</div>
+                            <div>Tell me about a time you resolved a critical dashboard issue under pressure.</div>
+                        </div>
+                        <div class="question-item">
+                            <div class="q-num">Q2</div>
+                            <div>How do you gather and clarify requirements from non-technical stakeholders?</div>
+                        </div>
+                        <div class="question-item">
+                            <div class="q-num">Q3</div>
+                            <div>Describe a project where you had to balance data accuracy with delivery speed.</div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-project">
+                        <div class="question-item">
+                            <div class="q-num">Q1</div>
+                            <div>Walk me through your Clinical KPI Dashboard project architecture.</div>
+                        </div>
+                        <div class="question-item">
+                            <div class="q-num">Q2</div>
+                            <div>How did you connect Power BI to Azure Synapse for real-time reporting?</div>
+                        </div>
+                        <div class="question-item">
+                            <div class="q-num">Q3</div>
+                            <div>What data modeling approach did you use and why?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 14: STEP 11 — TRACKING ===================== -->
+    <section class="slide" data-slide="14" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 11</div>
+            <h2 class="slide-title animate-up">Submission <span class="gradient-text">Tracking</span></h2>
+            <p class="slide-desc animate-up delay-1">One organized tracker for all submissions — always up to date</p>
+            <div class="tracker-table animate-up delay-2">
+                <div class="table-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Consultant</th>
+                                <th>Client</th>
+                                <th>Vendor</th>
+                                <th>Submitted</th>
+                                <th>Status</th>
+                                <th>Follow-up</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="t-avatar blue">RP</span> Ryan P.</td>
+                                <td>ABC Healthcare</td>
+                                <td>TechStaff Inc</td>
+                                <td>Jul 3</td>
+                                <td><span class="status-pill interview">Interview</span></td>
+                                <td>Jul 8</td>
+                            </tr>
+                            <tr>
+                                <td><span class="t-avatar purple">AK</span> Alex K.</td>
+                                <td>XYZ FinTech</td>
+                                <td>PrimeSoft</td>
+                                <td>Jul 2</td>
+                                <td><span class="status-pill submitted">Submitted</span></td>
+                                <td>Jul 7</td>
+                            </tr>
+                            <tr>
+                                <td><span class="t-avatar orange">SM</span> Sean M.</td>
+                                <td>DataCorp</td>
+                                <td>InfoBridge</td>
+                                <td>Jul 1</td>
+                                <td><span class="status-pill rejected">Rejected</span></td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td><span class="t-avatar teal">PR</span> Pamela R.</td>
+                                <td>MegaRetail</td>
+                                <td>StaffLogic</td>
+                                <td>Jul 3</td>
+                                <td><span class="status-pill shortlisted">Shortlisted</span></td>
+                                <td>Jul 9</td>
+                            </tr>
+                            <tr>
+                                <td><span class="t-avatar blue">RP</span> Ryan P.</td>
+                                <td>GlobalBank</td>
+                                <td>SkillBridge</td>
+                                <td>Jul 4</td>
+                                <td><span class="status-pill submitted">Submitted</span></td>
+                                <td>Jul 9</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 15: STEP 12 — DAILY REPORT ===================== -->
+    <section class="slide" data-slide="15" data-theme="dark">
+        <div class="slide-content">
+            <div class="step-badge animate-pop">STEP 12</div>
+            <h2 class="slide-title animate-up">Daily Productivity <span class="gradient-text">Report</span></h2>
+            <p class="slide-desc animate-up delay-1">End-of-day intelligence to keep every recruiter on track</p>
+            <div class="report-grid animate-up delay-2">
+                <div class="report-card">
+                    <div class="report-icon">📤</div>
+                    <div class="report-number" data-count="14">0</div>
+                    <div class="report-label">Submissions Today</div>
+                </div>
+                <div class="report-card">
+                    <div class="report-icon">📞</div>
+                    <div class="report-number" data-count="7">0</div>
+                    <div class="report-label">Follow-ups Pending</div>
+                </div>
+                <div class="report-card">
+                    <div class="report-icon">🎯</div>
+                    <div class="report-number" data-count="3">0</div>
+                    <div class="report-label">Interviews Scheduled</div>
+                </div>
+                <div class="report-card">
+                    <div class="report-icon">👤</div>
+                    <div class="report-number" data-count="2">0</div>
+                    <div class="report-label">Need Marketing</div>
+                </div>
+            </div>
+            <div class="report-alerts animate-up delay-3">
+                <div class="alert-item warn">⚠️ Vendor <strong>TechStaff</strong> hasn't responded to 3 submissions — follow up today</div>
+                <div class="alert-item info">📌 Consultant <strong>Suresh M.</strong> — no submissions in 5 days — marketing needed</div>
+                <div class="alert-item success">🎉 Consultant <strong>John D.</strong> — interview with ABC Healthcare tomorrow at 2 PM CST</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SLIDE 16: CLOSING ===================== -->
+    <section class="slide" data-slide="16" data-theme="hero">
+        <div class="particles" id="particles2"></div>
+        <div class="slide-content center-content">
+            <div class="closing-icon animate-pop">🎯</div>
+            <h2 class="slide-title animate-up">Ready to <span class="gradient-text">Transform</span><br>Bench Sales?</h2>
+            <div class="closing-stats animate-up delay-1">
+                <div class="c-stat">
+                    <div class="c-stat-icon">⚡</div>
+                    <div class="c-stat-text">Faster Submissions</div>
+                </div>
+                <div class="c-stat">
+                    <div class="c-stat-icon">📈</div>
+                    <div class="c-stat-text">Higher Match Quality</div>
+                </div>
+                <div class="c-stat">
+                    <div class="c-stat-icon">🤖</div>
+                    <div class="c-stat-text">Less Manual Work</div>
+                </div>
+                <div class="c-stat">
+                    <div class="c-stat-icon">🏆</div>
+                    <div class="c-stat-text">Greater Productivity</div>
+                </div>
+            </div>
+            <div class="closing-message animate-up delay-2">
+                <p>Claude AI keeps <strong>recruiters in control</strong> while eliminating the repetitive work that slows them down.</p>
+            </div>
+            <div class="closing-cta animate-up delay-3">Let's Get Started</div>
+        </div>
+    </section>
+
+    <!-- Keyboard hint -->
+    <div class="keyboard-hint" id="keyHint">
+        Use <kbd>←</kbd> <kbd>→</kbd> arrow keys or click to navigate
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
